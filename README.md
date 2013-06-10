@@ -44,31 +44,32 @@ For more information about Yiinitializr please check it at [its github repo](htt
 Bellow the directory structure used:
 
 ```
-   |-app
-   |---cli
-   |-----commands
-   |-----migrations
-   |---config
-   |-----env
-   |---controllers
-   |---extensions
-   |-----behaviors
-   |-----components
-   |---helpers
-   |---lib #it will hold composer 'vendor' folder
-   |-----Yiinitializr
-   |-------Cli
-   |-------Composer
-   |-------Helpers
-   |-------config
-   |---messages
-   |---models
-   |---modules
-   |---views
-   |-----layouts
-   |-----site
-   |---widgets
+
    |-www
+   |---app
+   |-----cli
+   |-------commands
+   |-------migrations
+   |-----config
+   |-------env
+   |-----controllers
+   |-----extensions
+   |-------behaviors
+   |-------components
+   |-----helpers
+   |-----lib #it will hold composer 'vendor' folder
+   |-------Yiinitializr
+   |---------Cli
+   |---------Composer
+   |---------Helpers
+   |---------config
+   |-----messages
+   |-----models
+   |-----modules
+   |-----views
+   |-------layouts
+   |-------site
+   |-----widgets
    |---css
    |-----fonts
    |---img
