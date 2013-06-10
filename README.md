@@ -28,13 +28,13 @@ For more information about using Composer please see its [documentation](http://
 We focused to release the pain of configuring your application and combine your configuration files. `Yiinitializr\Helpers\Initializr` is very easy to use, check for example the bootstrap `index.php` file:
 
 ```
-require('./../app/lib/vendor/yiisoft/yii/framework/yii.php');
+require('./app/lib/vendor/yiisoft/yii/framework/yii.php');
 
-Yii::setPathOfAlias('Yiinitializr', './../app/lib/Yiinitializr');
+Yii::setPathOfAlias('Yiinitializr', './app/lib/Yiinitializr');
 
 use Yiinitializr\Helpers\Initializer;
 
-Initializer::create('./../app', 'main', array('common', 'env', 'local'))->run();
+Initializer::create('./app', 'main', array('common', 'env', 'local'))->run();
 ```
 
 For more information about Yiinitializr please check it at [its github repo](https://github.com/2amigos/yiinitializr).
