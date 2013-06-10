@@ -9,7 +9,7 @@ The package is cleaned from extensions, you choose what you wish to include in y
 ## Setup and first run
 
   * Set up Git by following the instructions [here](https://help.github.com/articles/set-up-git).
-  * Update the configurations in `app/config/` to suit your needs. The `common/config/main.php` is configured to use **sqllite** by default. Change your `common/config/env/dev.php` to suit your database requirements.
+  * Update the configurations in `app/config/` to suit your needs. The `app/config/main.php` is configured to use **sqllite** by default. Change your `app/config/env/dev.php` to suit your database requirements.
   * Composer is required The package includes already a `composer.phar` file.
   * Browse through the `composer.json` and remove the dependencies you don't need also update the required versions of the extensions.
   * If you have `composer` installed globally:
